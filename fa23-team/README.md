@@ -74,7 +74,7 @@ _Data should be rename to psam_p25_year.csv and put them in the same dirt._
 4. To draw Geography graph, I processed the result. Change all the areas names to zip codes, and then draw a graph using tableau. 
 5. Draw ring diagrams.
 
-6. ## Q1 and Q4
+## Q1 and Q4
 
 ### Overview
 This dataset is derived from the `American Community Survey (ACS) Public Use Microdata Sample (PUMS)` and contains information on the means of transportation to work for different racial groups over the time span of 2014 to 2021.
@@ -93,3 +93,16 @@ The following key variables are included in the dataset:
 - `RAC1P = 2`: This variable represents individuals who identify as Black or African American alone.
 
 ### Data Preprocess
+
+## Q3 ##
+
+Data from https://www.census.gov/programs-surveys/acs/microdata/access.2020.html#list-tab-735824205. 
+We are using the  ACS 5-Year PUMS from 2011 to 2021. 
+With Label `RAC1P=1,2,3,4,6,7,9` 
+
+JWTRN for year 2019 to year 2021 and JWTR from 2011 to 2018.
+
+Also, we use the `HISP=1` which identifies the Latinx or not to count for the Latinx group.
+
+For visualization, we only use the matplotlib package in python.
+
