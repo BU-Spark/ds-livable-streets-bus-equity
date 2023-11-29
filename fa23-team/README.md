@@ -92,6 +92,15 @@ The following key variables are included in the dataset:
 - `RAC1P = 1`: This variable represents individuals who identify as White alone.
 - `RAC1P = 2`: This variable represents individuals who identify as Black or African American alone.
 
+  ## Data processing ##
+
+1. Handle missing values by dropping lines with missing JWMNP.
+2. According to the PUMA information on https://www2.census.gov/geo/pdfs/reference/puma/2010_PUMA_Names.pdf and updated information on https://www2.census.gov/geo/pdfs/reference/puma/2010_PUMA_Names.pdf, create two dicts to store the area name and code of PUMA.
+3. Find the areas which in all years to analyze their average. Calculate the time difference between Latinx and other different race groups of different areas across these years. Use (average * 2 * 5 * 50) / 60 to calculate the travel time difference between B&W each year.
+4. Convert all the non-numerical value to int or float
+5. Draw ring diagrams.
+
+
 
 
 ## Q3 ##
