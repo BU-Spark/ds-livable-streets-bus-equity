@@ -88,7 +88,7 @@ _Data should be rename to psam_p25_year.csv and put them in the same dirt._
 ### Data processes include: 
 
 1. Handle missing values by dropping lines with missing JWMNP.
-2. According to the PUMA information on https://www2.census.gov/geo/pdfs/reference/puma/2010_PUMA_Names.pdf and updated information on https://www2.census.gov/geo/pdfs/reference/puma/2010_PUMA_Names.pdf, create two dicts to store the area name and code of PUMA.
+2. According to the PUMA information on https://www2.census.gov/geo/pdfs/reference/puma/2010_PUMA_Names.pdf and updated information on [https://www2.census.gov/geo/pdfs/reference/puma/2010_PUMA_Names.pdf](https://www2.census.gov/geo/maps/DC2020/PUMA/st25_ma/Catalog_PUMAmaps_st25.pdf), create two dicts to store the area name and code of PUMA.
 3. Find the areas which in all years to analysis their average. Calculate the time difference between black and white of different areas across these years. Use (average * 2 * 5 * 50) / 60 to calculate the travel time difference between B&W each year.
 4. To draw Geography graph, I processed the result. Change all the areas names to zip codes, and then draw a graph using tableau. 
 5. Draw ring diagrams.
