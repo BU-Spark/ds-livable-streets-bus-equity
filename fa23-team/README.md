@@ -73,3 +73,23 @@ _Data should be rename to psam_p25_year.csv and put them in the same dirt._
 3. Find the areas which in all years to analysis their average. Calculate the time difference between black and white of different areas across these years. Use (average * 2 * 5 * 50) / 60 to calculate the travel time difference between B&W each year.
 4. To draw Geography graph, I processed the result. Change all the areas names to zip codes, and then draw a graph using tableau. 
 5. Draw ring diagrams.
+
+6. ## Q1 and Q4
+
+### Overview
+This dataset is derived from the `American Community Survey (ACS) Public Use Microdata Sample (PUMS)` and contains information on the means of transportation to work for different racial groups over the time span of 2014 to 2021.
+
+### Dataset Source
+The data can be accessed from the U.S. Census Bureau at the following link: [ACS PUMS Data](https://www2.census.gov/programs-surveys/acs/data/pums/).
+
+### Time Span
+The dataset covers the period from 2014 to 2021.
+
+### Variables Description
+The following key variables are included in the dataset:
+
+- `JWTR/JWTRNS = 02`: This variable indicates that the means of transportation to work is by bus.
+- `RAC1P = 1`: This variable represents individuals who identify as White alone.
+- `RAC1P = 2`: This variable represents individuals who identify as Black or African American alone.
+
+### Data Preprocess
