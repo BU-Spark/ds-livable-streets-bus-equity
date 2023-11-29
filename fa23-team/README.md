@@ -97,7 +97,7 @@ The following key variables are included in the dataset:
 2. I calculate the average commute time data of black and white people from 2013 to 2021.
    I also calculate the time difference between black and white from 2013 to 2021.
    I also calculate the difference between blacks and whites for each year using (average commute time * 2 * 5 * 50)/ 60.
-4. I use T-test to test the commuting differences between blacks and whites before and after the covid to test whether there was statistical significance and whether the covid had an impact on the commuting differences between blacks and whites.
+4. I used T-test to test the commuting differences between blacks and whites before and after the covid. I want to test whether there was statistical significance and whether the covid had an impact on the commuting differences between blacks and whites.
 5. I used linear regression models to predict the average travel time to work for both White and Black riders for the years 2020 and 2021. Then plot a graph visually compares these predictions against the actual data.
 
 ## Q3-Xiang Li ##
