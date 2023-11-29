@@ -11,6 +11,11 @@ At the end of the semester during project wrap up open a final Pull Request to <
 
 
 ## Question1
+Data: https://www.census.gov/programs-surveys/acs/microdata/access.2022.html#list-tab-735824205
+I use the ACS 5-Year PUMS from 2013 to 2021 with the label RAC1P=1 and 2, JWTRNS(2019-2021)/JWTR(2013-2018)=2 and JWMNP. 
+
+Data preprocess:
+
 
 ## Question2 (Bohan Wang)
 
