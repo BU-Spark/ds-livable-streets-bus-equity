@@ -1,4 +1,4 @@
-## Q2
+## Q2 (Bohan Wang)
 
 ### q2-final.ipynb
 
