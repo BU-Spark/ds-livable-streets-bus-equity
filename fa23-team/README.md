@@ -92,7 +92,7 @@ The following key variables are included in the dataset:
 - `RAC1P = 1`: This variable represents individuals who identify as White alone.
 - `RAC1P = 2`: This variable represents individuals who identify as Black or African American alone.
 
-  ## Data processing ##
+## Data processing ##
 
 1. Handle missing values by dropping lines with missing JWMNP.
 2. According to the PUMA information on https://www2.census.gov/geo/pdfs/reference/puma/2010_PUMA_Names.pdf and updated information on https://www2.census.gov/geo/pdfs/reference/puma/2010_PUMA_Names.pdf, create two dicts to store the area name and code of PUMA.
