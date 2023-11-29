@@ -12,7 +12,7 @@ At the end of the semester during project wrap up open a final Pull Request to <
 
 ## Question1
 
-## Q2 (Bohan Wang)
+## Question2 (Bohan Wang)
 
 ### q2-final.ipynb
 
