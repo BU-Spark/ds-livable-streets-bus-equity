@@ -88,7 +88,7 @@ The dataset covers the period from 2013 to 2021.
 ### Variables Description
 The following key variables are included in the dataset:
 
-- `JWTR(2013-2018)/JWTRNS(1029-2021) = 02`: This variable indicates that the means of transportation to work is by bus.
+- `JWTR(2013-2018)/JWTRNS(2019-2021) = 02`: This variable indicates that the means of transportation to work is by bus.
 - `RAC1P = 1`: This variable represents individuals who identify as White alone.
 - `RAC1P = 2`: This variable represents individuals who identify as Black or African American alone.
 
