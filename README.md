@@ -15,7 +15,9 @@ Data: https://www.census.gov/programs-surveys/acs/microdata/access.2022.html#lis
 I use the ACS 5-Year PUMS from 2013 to 2021 with the label RAC1P=1 and 2, JWTRNS(2019-2021)/JWTR(2013-2018)=2 and JWMNP. 
 
 Data preprocess:
-
+1. Through observation, I found a lot of missing values in JWTRNS. I preprocessed the data by removing the row with missing values.
+2. Calculate the average commute time data of black and white people from 2013 to 2021. I also calculate the time difference between black and white from 2013 to 2021. I also calculate the difference between blacks and whites for each year using (mean * 2 * 5 * 50)/ 60.
+3. I use t-test to test the commuting differences between blacks and whites before and after the covid to test whether there was statistical significance and whether the covid had an impact on the commuting differences between blacks and whites.
 
 ## Question2 (Bohan Wang)
 
