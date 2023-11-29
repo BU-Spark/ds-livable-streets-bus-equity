@@ -74,36 +74,32 @@ _Data should be rename to psam_p25_year.csv and put them in the same dirt._
 4. To draw Geography graph, I processed the result. Change all the areas names to zip codes, and then draw a graph using tableau. 
 5. Draw ring diagrams.
 
-## Q1 and Q4
 
+## Question 1 & 4（Yu Liang & Xinyu Zhang)
 ### Overview
-This dataset is derived from the `American Community Survey (ACS) Public Use Microdata Sample (PUMS)` and contains information on the means of transportation to work for different racial groups over the time span of 2014 to 2021.
+This dataset is derived from the `American Community Survey (ACS) Public Use Microdata Sample (PUMS)` and contains information on the means of transportation to work for different racial groups over the time span of 2013 to 2021.
 
 ### Dataset Source
 The data can be accessed from the U.S. Census Bureau at the following link: [ACS PUMS Data](https://www2.census.gov/programs-surveys/acs/data/pums/).
 
 ### Time Span
-The dataset covers the period from 2014 to 2021.
+The dataset covers the period from 2013 to 2021.
 
 ### Variables Description
 The following key variables are included in the dataset:
 
-- `JWTR/JWTRNS = 02`: This variable indicates that the means of transportation to work is by bus.
+- `JWTR(2013-2018)/JWTRNS(1029-2021) = 02`: This variable indicates that the means of transportation to work is by bus.
 - `RAC1P = 1`: This variable represents individuals who identify as White alone.
 - `RAC1P = 2`: This variable represents individuals who identify as Black or African American alone.
 
-## Data processing ##
+### Data Preprocess
+1. Through observation, I found a lot of missing values in JWTRNS. I preprocessed the data by removing the row with missing values.
+2. I calculate the average commute time data of black and white people from 2013 to 2021.
+   I also calculate the time difference between black and white from 2013 to 2021.
+   I also calculate the difference between blacks and whites for each year using (average commute time * 2 * 5 * 50)/ 60.
+4. I use T-test to test the commuting differences between blacks and whites before and after the covid to test whether there was statistical significance and whether the covid had an impact on the commuting differences between blacks and whites.
 
-1. Handle missing values by dropping lines with missing JWMNP.
-2. According to the PUMA information on https://www2.census.gov/geo/pdfs/reference/puma/2010_PUMA_Names.pdf and updated information on https://www2.census.gov/geo/pdfs/reference/puma/2010_PUMA_Names.pdf, create two dicts to store the area name and code of PUMA.
-3. Find the areas which in all years to analyze their average. Calculate the time difference between Latinx and other different race groups of different areas across these years. Use (average * 2 * 5 * 50) / 60 to calculate the travel time difference between B&W each year.
-4. Convert all the non-numerical value to int or float
-5. Draw ring diagrams.
-
-
-
-
-## Q3 ##
+## Q3-Xiang Li ##
 
 Data from https://www.census.gov/programs-surveys/acs/microdata/access.2020.html#list-tab-735824205. 
 We are using the  ACS 5-Year PUMS from 2011 to 2021. 
