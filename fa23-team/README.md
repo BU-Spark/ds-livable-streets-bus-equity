@@ -1,9 +1,9 @@
 
-Each notebook contains our work of analysis the problem, and all the data used are in the data folder.
+Each notebook contains our work of analyzing the problem, and all the data used are in the data folder.
 
 Clone or download this branch and run the notebook.
 
-Final Report_Bus Equity_ DS 701 x Livable Streets Alliance .docx is the final report file
+Final Report_Bus Equity_ DS 701 x Livable Streets Alliance .docx is the final report file.
 
 
 ## Q2 (Bohan Wang)
