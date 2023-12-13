@@ -1,3 +1,11 @@
+
+Each notebook contains our work of analisys the problem, the all the data used are in the data folder.
+
+Clone or download this branch to and run the notebook.
+
+
+
+
 ## Q2 (Bohan Wang)
 
 ### q2-final.ipynb
